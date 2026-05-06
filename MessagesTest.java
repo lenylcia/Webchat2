@@ -1,6 +1,4 @@
 /*
- * Author: [Your Name]
- * Date: [Current Date]
  * Description: JUnit unit tests for the Messages class.
  *              Tests message length, recipient formatting,
  *              message hash, message ID, and sentMessage options.
