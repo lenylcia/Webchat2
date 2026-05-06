@@ -1,6 +1,4 @@
 /*
- * Author: Lenylcia Moholi Lopes
- * Date: 02/05/2026
  * Description: Main class for the Webchat application.
  *              Handles user registration, login, and the message sending menu.
  */
