@@ -1,6 +1,27 @@
 /*
+
  * Description: Main class for the Webchat application.
  *              Handles user registration, login, and the message sending menu.
+ DECLARATION LIST:
+ * scanner          - Scanner object used to read user input from the keyboard
+ * firstName        - the user's first name entered during registration
+ * lastName         - the user's last name entered during registration
+ * username         -  the username entered during registration
+ * password         - saves the password entered during registration
+ * cellNumber       -  the cell phone number entered during registration
+ * user             - Login object created with the user's registration details
+ * loginUsername    - Saves the username entered during login
+ * loginPassword    - Saves the password entered during login
+ * loggedIn         - Boolean flag indicating whether the login was successful
+ * numMessages      - Stores how many messages the user wants to send
+ * messagesSent     - Counter tracking how many messages have been sent
+ * running          - Boolean flag controlling the main menu loop
+ * choice           - Saves the user's menu option selection
+ * recipient        - Saves the recipient's cell phone number for a message
+ * messageText      - Stores the message text entered by the user
+ * msg              - Messages object created for each new message
+ * action           - Stores the user's choice to send, disregard, or store
+ * summary          - Messages object used to display sent messages summary
  */
 
 import java.util.Scanner;
