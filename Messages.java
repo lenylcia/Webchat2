@@ -1,7 +1,28 @@
 /*
+ 
  * Description: Messages class for the webchat application.
  *              Handles message creation, validation, sending,
  *              storing, and disregarding messages.
+DECLARATION LIST:
+ * messageID        -  the unique 10-digit ID generated for each message
+ * messageNumber    -  the number/count of the message in the session
+ * recipient        - the recipient's cell phone number
+ * message          -  the actual message text (payload)
+ * messageHash      - the generated hash for the message
+ * sentMessages     -  all sent messages as a list during the session
+ * totalMessagesSent - Traces the total number of messages sent
+ * rand             - Random object used to generate the message ID
+ * id               - Saves the randomly generated numeric message ID
+ * idPrefix         - Saves the first 2 digits of the message ID for the hash
+ * words            - Array storing each word of the message after splitting
+ * firstWord        -  saves the first word of the message for the hash
+ * lastWord         - saves the last word of the message for the hash
+ * hash             - Saves the combined hash string before converting to uppercase
+ * sb               - StringBuilder used to build the list of sent messages
+ * msg              - Saves each individual sent message during the loop
+ * file             - FileWriter object used to write messages to the text file
+ * over             - Saves how many characters the message exceeds the limit by
+ 
  */
 
 import java.io.FileWriter;
