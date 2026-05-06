@@ -1,6 +1,4 @@
 /*
- * Author: Lenylcia Moholi Lopes
- * Date: 02/05/2026
  * Description: Messages class for the webchat application.
  *              Handles message creation, validation, sending,
  *              storing, and disregarding messages.
