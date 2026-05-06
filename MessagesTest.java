@@ -1,7 +1,16 @@
 /*
+
  * Description: JUnit unit tests for the Messages class.
  *              Tests message length, recipient formatting,
  *              message hash, message ID, and sentMessage options.
+ * DECLARATION LIST:
+ * shortMessage     -  a short valid message used to test the length check
+ * longMessage      -  a message over 250 characters used to test the length limit
+ * over             - saves how many characters the long message exceeds the limit by
+ * expected         - Saves the expected output string for the length failure test
+ * msg              - Messages object created for each test case
+ * hash             - Stores the message hash returned by getMessageHash()
+ * colonCount       - Stores the number of colons found in the hash string
  */
 
 import org.junit.Test;
